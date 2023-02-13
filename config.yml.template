@@ -1,0 +1,33 @@
+libraries:
+  - name: Library 1
+    description: This library blah blah blah (version 1.0.0)
+    link: https://example.com/library1
+    include:
+      - /path/to/some/headers
+      - /path/to/more/headers
+    exclude:
+      - /path/to/some/headers/subdir
+    namespaces:
+      - myNamespace
+    defines:
+      - FOOBAR
+      - BARBAZ=2
+  - name: Library 2
+    description: This library blah blah blah (version 1.1.0)
+    link: https://example.com/library2
+    include:
+      - /path2/to/some/headers
+      - /path2/to/more/headers
+    namespaces:
+      - myNamespace332
+    defines:
+      - FOOBAR
+classes:
+  - Class1
+  - Class2
+singletons:
+  - Var1
+  - Var2
+functions:
+  - func1
+  - func2
